@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/895d586cd4.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        hr.one {
+            border: none;
+            height: 10px;
+            background: rgb(236, 0, 0);
+
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,200;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
+    </style>
+        
+   
+</head>
+<body>
+<div id="preloader"></div>
+<div class="arrow-btn">
+    <a href="#"><span class="fas fa-angle-up"></span></a>
+</div>
+
+<!-- ---------------------HOME----------------------- -->
+    <div class="hero">
+        <nav>
+            <img src="images/PORTFOLIO-1.png" class="logo">
+            <ul>
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#strength">STRENGTH </a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <p>I'M</p>
+            <h1>KANISHKAR K</h1>
+            <h3>FULL STACK DEVELOPER (ACCENTURE)</h3>
+            <a href="images/Kanishkar CV.pdf" download>DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+        <img src="images/splash.png" class="splash">
+        <img src="images/boy.png" class="boy">
+
+        </div>
+    </div>
+    <div class="square">
+        <div class="hel">
+            <ul><li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+</div>
+
+<!-- --------------ABOUT ME------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <P>Self-motivated and highly reliable university student positioned to contribute strongly to company operations with
+                    enthusiasm, and an exemplary work ethic.</P>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>JAVA</span></li>
+                        <div class="progress-bar">
+                            <div class="java"><span>40%</span></div>
+                        </div>
+                        <li><span>PYTHON</span></li>
+                        <div class="progress-bar">
+                            <div class="python"><span>80%</span></div>
+                        </div>
+                        <li><span>C PROGRAMMING</span></li>
+                        <div class="progress-bar">
+                            <div class="c-prog"><span>75%</span></div>
+                        </div>
+                        <li><span>SERVICE NOW</span></li>
+                        <div class="progress-bar">
+                            <div class="service"><span>10%</span></div>
+                        </div>
+                        <li><span>HTML</span></li>
+                        <div class="progress-bar">
+                            <div class="html"><span>90%</span></div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jan 2023 - Feb 2023</span><br>Data Analyst (INTERN) at Being Clouds Software Private Limited <br> • One month of period in this company was most enthusiasm and anticipated time of my career, learned how
+                            the corporate world and network works with enormous knowledgeable people who teach you to overcome the
+                            mistake and Share the Knowledge among youngsters. </li>
+                        <li><span>Jun 2021 - Current</span><br>Video Steamer at Youtube <a href="https://www.youtube.com/@basics8018/featured">(BASICS)</a><br>• Started a channel on the YouTube platform with my friend and tentatively keep posting videos with a balanced
+                            day today work lifestyle. </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Jun 2019 - Mar 2023</span><br>Bachelor Of Technology (INFORMATION TECHNOLOGY)<br>Saveetha Engineering College, Chennai(IN)</li>
+                    </ul>
+                </div>
+            </div>              
+        </div>
+    </div>
+</div>
+<hr color="blue" width="1px"/>
+
+<!-- -----------------services---------------->
+
+
+<div id="strength">
+    <div id="container">
+        <h1 class="sub-title">MY STRENGTH</h1>
+        <div class="strength-list">
+            <div>
+                <i class="fa-solid fa-handshake"></i>
+                <h2>Collaboration</h2>
+                <p>A watch cannot be work on a single Mechanism, about 130 parts synchorize with each other to show Time. Same as Employee cannot be worked individually which to complete a Project</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>Problem Solving</h2>
+                <p>"There are no big problems, there are just a lot of little problems"-Henry Ford, A problem occurs but analysing and solving that problem with the team mates is my greatest strength</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-clock"></i>
+                <h2>Time Management</h2>
+                <p>No one have the power to stop the time but Does have the power to manage that time, During Some Unexpected problem schedule gets break but overviweing that time and maintaining makes u greater</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- --------------------CONTACT---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kanishkqrk@gmail.com</p>
+
+                <p><i class="fa-solid fa-phone"></i>+91 9884312777</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kanishkar-k/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/kanishkar09/kanishkark.github.io"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form onsubmit="emailSend(); reset(); return false;" >
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Kanishkar. Thank You for Reaching to my Portfolio.</p>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
+    <script src="email.js"></script>
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 200          
+
+        });
+
+        ScrollReveal().reveal('.sub-title', { delay: 200, origin:'left' });
+        ScrollReveal().reveal('.container .about-col-1', { delay: 200, origin:'bottom' });
+        ScrollReveal().reveal('.tab-contents active-tab', { delay: 200, origin:'right' });
+    // ------------strength---------
+        ScrollReveal().reveal('.strength-list ', { delay: 200, origin:'top', interval: 200 });
+        ScrollReveal().reveal('.strength-list h2', { delay: 600, origin:'top', interval: 200 });
+        ScrollReveal().reveal('.strength-list p', { delay: 600, origin:'top', interval: 200 });
+        ScrollReveal().reveal('.strength-list div', { delay: 600, origin:'top', interval: 200 });
+
+    // -------------contact--------------
+
+    ScrollReveal().reveal('.contact-left', { delay: 200, origin:'bottom', interval: 200 });
+    ScrollReveal().reveal('.contact-right', { delay: 200, origin:'right', interval: 200 });
+
+
+    </script>
+</div>
+
+
+<!-- -----------------JAVA Script--------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+   
+    }
+
+</script>
+
+
+
+
+
+<script>
+    var loader = document.getElementById("preloader");
+    
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+
+</script>
+
+</body>
+</html>
